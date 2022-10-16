@@ -1,0 +1,165 @@
+
+header {
+    
+    width:100%;
+    height:90px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+   
+    background: rgb(244, 175, 90);
+
+    position:relative;
+    z-index:1;
+    
+   
+
+}
+
+.content1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:30px;
+    font-family:Karma,serif;
+       
+}
+
+.link_box{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+
+
+/*
+.link1{
+    
+    
+    display:inline-block;
+    width:60px;
+    
+    padding:10px;
+    margin-left:40px;
+    margin-right:40px;
+
+    
+    
+    font-size:15px;
+    font-family:Karma,serif;
+}
+*/
+
+.link1{
+    
+    
+    display:inline-block;
+    width:60px;
+    
+    padding:10px;
+    margin-left:40px;
+    margin-right:40px;
+
+    
+    
+    font-size:15px;
+    font-family:Karma,serif;
+}
+
+
+
+
+
+.image-banner {
+    position:relative;
+    top:0px;
+    background-image: url('../img/GTI_banner.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display:flex;
+	flex-direction:column;
+    justify-content: space-around;
+	align-items: center;
+}
+
+.container{
+    display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*
+.content2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    font-family:Karma,serif;
+    z-index:0;
+         
+}
+*/
+.content2{
+    
+    color:white;
+    
+    font-size:50px;
+    font-weight:bold;
+    font-family:Karma,serif;
+    z-index:0;
+         
+}
+.para{
+    color:white;
+    font-size:20px;
+    
+    font-family:Karma,serif;
+
+}
+
+
+.image-banner-2 {
+    position:relative;
+    top:0px;
+    background-image: url('../img/rectangle.png');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display:flex;
+	flex-direction:column;
+    
+}
+
+
+.info_box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+	flex-direction:column;
+    justify-content: space-around;
+	align-items: center;
+}
+
+
+.info{
+    
+    margin:0 auto;
+    height:60px;  
+    
+
+    font-weight:bold;
+    font-size:20px;
+    font-family:Karma,serif;
+}
+

@@ -1,0 +1,176 @@
+header {
+    
+    width:100%;
+    height:90px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+   
+    background: rgb(244, 175, 90);
+
+    position:relative;
+}
+
+.content_menu{
+   
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:30px;
+    font-family:Karma,serif;
+    font-weight: bolder;
+       
+}
+/*
+.image_background{
+    position:relative;
+    top:0px;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+*/
+
+/*
+.image_background{
+
+    position:relative;
+    top:0px;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display:flex;
+	flex-direction:column;
+    justify-content: space-around;
+	align-items: center;
+    
+    
+
+    
+    
+
+}
+*/
+
+    
+
+
+.image_background{
+    
+    background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+
+    display:flex;
+	flex-direction:column;
+    justify-content: space-around;
+	align-items: center;
+    /*让隐形的，装三个菜单的大盒子container放在背景图片正中*/
+
+}
+
+
+/*
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:30px;
+    font-family:Karma,serif;
+    
+    width:1000px;
+    height:500px;
+    
+    background-color:rgb(244, 175, 90);
+    opacity:0.8;
+
+}
+*/
+.container{
+
+    /*width: 800px;
+	height: 1700px;*/
+    width:1000px;
+    height:2000px;
+    
+    /*border: 4px solid black;*/
+   
+    
+
+    display:flex;
+	flex-direction:column;
+	justify-content: space-around;/*让三块菜单盒子box贴着大盒子container左边在竖直方向上有相同间距，而flex-direction:row 所加justify-content: space-around;会让三个菜单盒子贴着大container盒子上边在水平方向上有相同间距。*/
+    align-items: center;/*让三块菜单盒子box按竖直方向集中到大container最中上处，而flex-direction:row 所加algin-items:center的效果是三个盒子按水平方向被挤到大container最中间左边。*/
+	
+}
+
+.box{
+    
+    font-family:Karma,serif;
+    
+    
+    width:800px;
+    height:600px;
+    
+    background-color:white;
+    border: 4px solid black;
+    border-radius: 10px;
+    opacity:0.8;
+    
+
+    display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+    /*让每个box内的文字居中  */
+
+}
+
+.special-offer{
+     
+    width:800px;
+    height:80px;
+    
+    background-color:white;
+    border: 4px solid black;
+    border-radius: 10px;
+    opacity:0.8;
+
+    display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tiny-box-0{
+    width:700px;
+    height:60px;
+    
+    font-size: 20px;
+    font-family:Lobster,serif;
+
+}
+
+.tiny-box{
+    width:700px;
+    height:550px;
+    /*border: 4px solid black;*/
+    font-size: 15px;
+    font-weight:bold;
+
+}
+
+
+
+.plate1{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
