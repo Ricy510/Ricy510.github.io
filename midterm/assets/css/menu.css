@@ -13,7 +13,7 @@ header {
 .content_menu{
    
     position:absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform:translate(-50%,-50%);
     font-size:30px;
@@ -46,14 +46,55 @@ header {
 	flex-direction:column;
     justify-content: space-around;
 	align-items: center;
-    
-    
-
-    
-    
-
 }
 */
+
+.link_box{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+
+
+/*
+.link1{
+    
+    
+    display:inline-block;
+    width:60px;
+    
+    padding:10px;
+    margin-left:40px;
+    margin-right:40px;
+
+    
+    
+    font-size:15px;
+    font-family:Karma,serif;
+}
+*/
+
+.link1{
+    
+    
+    display:inline-block;
+    width:60px;
+    
+    padding:10px;
+    margin-left:40px;
+    margin-right:40px;
+
+    
+    
+    font-size:15px;
+    font-family:Karma,serif;
+}
+
+
+
 
     
 

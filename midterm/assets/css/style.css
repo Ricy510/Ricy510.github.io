@@ -5,14 +5,10 @@ header {
     height:90px;
     margin-top: 0px;
     padding-bottom: 20px;
-   
     background: rgb(244, 175, 90);
-
     position:relative;
     z-index:1;
     
-   
-
 }
 
 .content1{
@@ -22,6 +18,7 @@ header {
     transform:translate(-50%,-50%);
     font-size:30px;
     font-family:Karma,serif;
+    font-weight: bolder;
        
 }
 
@@ -31,9 +28,6 @@ header {
     left:50%;
     transform:translate(-50%,-50%);
 }
-
-
-
 
 /*
 .link1{
@@ -54,8 +48,7 @@ header {
 */
 
 .link1{
-    
-    
+
     display:inline-block;
     width:60px;
     
@@ -111,17 +104,17 @@ header {
 .content2{
     
     color:white;
-    
     font-size:50px;
     font-weight:bold;
     font-family:Karma,serif;
     z-index:0;
-         
+     
 }
+
 .para{
+
     color:white;
     font-size:20px;
-    
     font-family:Karma,serif;
 
 }
