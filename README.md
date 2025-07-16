@@ -5,6 +5,8 @@ Welcome to Web Design DeCal! Please follow the steps below to get fully set up b
 ---
 
 ## ✅ To-Do Checklist
+0. **All instructions linked here** 
+   👉 [GitHub Setup](https://tinyurl.com/wddio)
 
 1. **Join the Course Discussion Board**  
    Make sure you're added to the course Ed:  
@@ -22,13 +24,3 @@ Welcome to Web Design DeCal! Please follow the steps below to get fully set up b
    Follow the GitHub setup instructions in the student portal **before** starting any homework.
 
 ---
-
-## 📌 Homework Deadlines
-
-- **Homework 1 is due on 9/22**
-
-Please make sure you've completed all setup steps ahead of time to avoid delays in your assignments.
-
----
-
-Feel free to reach out via Ed if you run into any issues!
